@@ -32,5 +32,5 @@ export async function GET() {
     });
   }
   //redirect to home page
-  return NextResponse.redirect("http://localhost:3000"); //the string changes in production environment to the website root url
+  return NextResponse.redirect('https://nextjsintroduction-nine.vercel.app'); //the string changes in production environment to the website root url
 }
